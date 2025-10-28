@@ -22,7 +22,7 @@ function toDisplayDigitalClock(){
     month = months[month];
 
     // document object manipulation
-    dayHeading.textContent = day;
+    dayHeading.textContent = days;
     dateHeading.textContent = `${toConcatenateZeros(date)} - ${month} - ${year}`;
     timeHeading.textContent = `${toConcatenateZeros(hours)}:${toConcatenateZeros(minutes)}`;
     secondsHeading.textContent = toConcatenateZeros(seconds);
