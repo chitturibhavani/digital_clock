@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: ProductSans;
+}
+@font-face {
+    font-family: ProductSans;
+    src: url(./Product\ Sans\ Regular.ttf);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#digital_clock_container{
+    width: 25vw;
+    height: 25vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3vw;
+    backdrop-filter: blur(5vw);
+    border: 1px solid black;
+}
+#seconds_heading{
+    font-size: 45em;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    color: cadetblue;
+    text-shadow: 0.5vw 0.5vw 0.5vw black;
+}
+#day_heading{
+    font-size: 5em;
+    color: darkblue;
+}
